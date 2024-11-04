@@ -4,52 +4,70 @@
 :construction: Analisis-Tictanic :construction:
 </h2>
 
-Desde hace tiempo, me he sentido atraído por la historia del Titanic. Muchos investigadores han dedicado su esfuerzo a reconstruir los restos del famoso barco, con el objetivo de comprender cómo fueron sus horas finales y las de sus pasajeros.Espero que te guste esta versión. 
-<h1>⏩⏩ Instalación y Ejecución </h1>
-- Python (versión 3.6 o superior)
-- pip (gestor de paquetes de Python)
--jupyter
+¿Por que no analisar la historia del Titanic?. Muchos investigadores han dedicado su esfuerzo a reconstruir los restos del famoso barco, con el objetivo de comprender cómo fueron sus horas finales y las de sus pasajeros.Espero que te guste esta versión. 
 
-<h1>⏩⏩ Clonación y Ejecución <div id="clonar-y-ejecytar"></div> </h1>
+<h1> Para trabajar en ello necesitamos:</h1>
 
-1. Para clonar el repositorio se puede hacer de la siguiente forma:
-	Ve a la página del proyecto en GitHub y haz clic en el botón "Code", luego selecciona "Download ZIP" para descargar el proyecto como un archivo comprimido. Alternativamente, puedes usar el siguiente enlace:
-	
+<h4>⏩⏩Paso 1: Instalar Python y pip</h4>
+Asegúrate de tener Python y pip instalados en tu sistema. Puedes verificar esto ejecutando los siguientes comandos en tu terminal:
+
 ```batch
-	https://github.com/condebufon/ProyectoXanduria/archive/refs/heads/base.zip
+python --version
+pip --version
 ```
+<h4>⏩⏩Paso 2: Crear un entorno virtual</h4>
+Crea un entorno virtual para evitar conflictos entre paquetes. Ejecuta el siguiente comando en la terminal:
 
-2. Descomprimir el Archivo 
-	* Extrae el contenido del archivo ZIP descargado en una carpeta de tu elección.
-	
-3. Navegar al Directorio del Proyecto
-	*Accede al directorio del proyecto descomprimido:
-	
-
-4. Generar un entorno virtual de python e instalar las dependencias de este proyecto:
-
-> Sistemas basados en GNU/Linux
 ```batch
-python3 -m venv virtual
-source virtual/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+python -m venv nombre_del_entorno
 ```
-> Sistemas Windows
-```batch
-python -m venv virtual
-virtual\Scripts\activate.bat
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+Reemplaza nombre_del_entorno con el nombre que desees para tu entorno.
+<h4>⏩⏩Paso 3: Activar el entorno virtual</h4>
+Activa el entorno virtual con uno de los siguientes comandos, dependiendo de tu sistema operativo:
+Windows:
 
+```batch
+nombre_del_entorno\Scripts\activate
 ```
-6. Ejecutar el Servidor
-	Finalmente, ejecuta el servidor de desarrollo:
-	```batch
-	python manage.py runserver
-	Ahora puedes acceder a la aplicación en tu navegador en http://127.0.0.1:8000.	
-	```
-<h1>⏩⏩Trabajo futuro <div id="trabajo-futuro"></div></h1>
+macOS/Linux:
+
+```batch
+source nombre_del_entorno/bin/activate
+```
+<h4>⏩⏩Paso 4: Instalar Jupyter y otras dependencias</h4>
+Con el entorno virtual activado, instala Jupyter y las bibliotecas necesarias. Ejecuta:
+
+```batch
+pip install jupyter pandas numpy matplotlib seaborn
+```
+Esto instalará Jupyter y las bibliotecas comunes que probablemente necesites para el análisis de datos.
+
+<h4>⏩⏩Paso 5: Clonar el repositorio</h4>
+Clona el repositorio de GitHub en tu máquina local usando el siguiente comando:
+
+```batch
+git clone https://github.com/condebufon/Analisis-Tictanic.git
+```
+Esto creará una carpeta llamada Analisis-Tictanic con todos los archivos del repositorio.
+
+<h4>⏩⏩Paso 6: Navegar al directorio del repositorio</h4>
+Cambia al directorio del repositorio clonado:
+
+```batch
+cd Analisis-Tictanic
+```
+<h4>⏩⏩Paso 7: Iniciar Jupyter Notebook</h4>
+Inicia Jupyter Notebook con el siguiente comando:
+
+```batch
+jupyter notebook
+```
+Esto abrirá una nueva pestaña en tu navegador web donde podrás ver los archivos del repositorio.
+<h4>⏩⏩Paso 8: Abrir y trabajar con notebooks</h4>
+Desde la interfaz de Jupyter, abre los archivos .ipynb que se encuentran en el repositorio para comenzar a trabajar con ellos.
+Siguiendo estos pasos, podrás configurar un entorno virtual y trabajar con el repositorio Analisis-Tictanic en Jupyter.
+
+<h1>⏩⏩Trabajo futuro</div></h1>
 
 <h3 align=justify>Análisis Inicial del Dataset Utilizado</h3>
 En esta sección, se realizará un análisis exhaustivo del dataset que se utilizará en el proyecto. Se examinarán las características principales del conjunto de datos, incluyendo:
