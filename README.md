@@ -5,6 +5,51 @@
 </h2>
 
 Desde hace tiempo, me he sentido atraído por la historia del Titanic. Muchos investigadores han dedicado su esfuerzo a reconstruir los restos del famoso barco, con el objetivo de comprender cómo fueron sus horas finales y las de sus pasajeros.Espero que te guste esta versión. 
+<h1>⏩⏩ Instalación y Ejecución </h1>
+- Python (versión 3.6 o superior)
+- pip (gestor de paquetes de Python)
+-jupyter
+
+<h1>⏩⏩ Clonación y Ejecución <div id="clonar-y-ejecytar"></div> </h1>
+
+1. Para clonar el repositorio se puede hacer de la siguiente forma:
+	Ve a la página del proyecto en GitHub y haz clic en el botón "Code", luego selecciona "Download ZIP" para descargar el proyecto como un archivo comprimido. Alternativamente, puedes usar el siguiente enlace:
+	
+```batch
+	https://github.com/condebufon/ProyectoXanduria/archive/refs/heads/base.zip
+```
+
+2. Descomprimir el Archivo 
+	* Extrae el contenido del archivo ZIP descargado en una carpeta de tu elección.
+	
+3. Navegar al Directorio del Proyecto
+	*Accede al directorio del proyecto descomprimido:
+	
+
+4. Generar un entorno virtual de python e instalar las dependencias de este proyecto:
+
+> Sistemas basados en GNU/Linux
+```batch
+python3 -m venv virtual
+source virtual/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+> Sistemas Windows
+```batch
+python -m venv virtual
+virtual\Scripts\activate.bat
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+```
+6. Ejecutar el Servidor
+	Finalmente, ejecuta el servidor de desarrollo:
+	```batch
+	python manage.py runserver
+	Ahora puedes acceder a la aplicación en tu navegador en http://127.0.0.1:8000.	
+	```
+<h1>⏩⏩Trabajo futuro <div id="trabajo-futuro"></div></h1>
 
 <h3 align=justify>Análisis Inicial del Dataset Utilizado</h3>
 En esta sección, se realizará un análisis exhaustivo del dataset que se utilizará en el proyecto. Se examinarán las características principales del conjunto de datos, incluyendo:
@@ -25,5 +70,6 @@ Métodos de Transformación: Detalle sobre las técnicas utilizadas, como la agr
 <h4 align=justify>Carga:
 Destino de Carga: Descripción del sistema o base de datos donde se cargarán los datos transformados.
 Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o programada</h4>
-  
+
+
 cualquier duda o observacion contactar a: https://api.whatsapp.com/send/?phone=573157511161
