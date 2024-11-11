@@ -75,6 +75,7 @@ Un dataset, o conjunto de datos, es una colección estructurada de información 
 <h4 align=justify>
 <h4>¿Qué variables contiene el dataset?</h4>
 <h4>El dataset incluye varias variables importantes que me permiten analizar la información de los pasajeros, tales como:
+
     ⏺Pclass: Clase del pasajero (1, 2 o 3).
     ⏺Sex: Género del pasajero (masculino o femenino).
     ⏺Age: Edad del pasajero.
@@ -88,6 +89,7 @@ Un dataset, o conjunto de datos, es una colección estructurada de información 
     He encontrado algunos valores nulos en ciertas columnas, especialmente en la variable Age, donde hay varios pasajeros sin edad registrada. No he encontrado registros duplicados. Para manejar los valores nulos, planeo utilizar técnicas como la imputación de la edad utilizando la media o mediana de las edades disponibles y, si es necesario, considerar eliminar filas con valores nulos en otras variables críticas.</h4>
 <h4>¿Qué tipo de variables (categóricas, continuas, etc.) están presentes?
     El dataset contiene una mezcla de tipos de variables:
+    
     Variables categóricas:
         Pclass
         Sex
