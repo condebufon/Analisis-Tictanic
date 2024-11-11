@@ -82,7 +82,22 @@ Un dataset, o conjunto de datos, es una colección estructurada de información 
     ⏺Parch: Número de padres o hijos a bordo.
     ⏺Fare: Tarifa pagada por el pasajero.
     ⏺Embarked: Puerto de embarque (C = Cherburgo, Q = Queenstown, S = Southampton).</h4>
-    
+<h4>¿Cuántas filas y columnas tiene el dataset?
+    El dataset tiene un total de 891 filas y 12 columnas, lo que significa que tengo información sobre 891 pasajeros y 12 características diferentes para cada uno.</h4>
+<h4>¿Existen valores nulos o duplicados? ¿Cómo se van a manejar?
+    He encontrado algunos valores nulos en ciertas columnas, especialmente en la variable Age, donde hay varios pasajeros sin edad registrada. No he encontrado registros duplicados. Para manejar los valores nulos, planeo utilizar técnicas como la imputación de la edad utilizando la media o mediana de las edades disponibles y, si es necesario, considerar eliminar filas con valores nulos en otras variables críticas.</h4>
+<h4>¿Qué tipo de variables (categóricas, continuas, etc.) están presentes?
+    El dataset contiene una mezcla de tipos de variables:
+    Variables categóricas:
+        Pclass
+        Sex
+        Embarked
+    Variables continuas:
+        Age
+        Fare
+    Variables discretas:
+        SibSp
+        Parch</h4>
 <h4>Origen de los Datos: Descripción de la fuente de datos y su relevancia para el proyecto.</h4>
 <h4>Estructura del Dataset: Análisis de las columnas, tipos de datos y la cantidad de registros.</h4>
 <h4>Calidad de los Datos: Identificación de problemas potenciales como valores nulos, duplicados o inconsistencias que puedan afectar el análisis posterior.</h4>
