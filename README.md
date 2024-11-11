@@ -69,10 +69,20 @@ Siguiendo estos pasos, podrás configurar un entorno virtual y trabajar con el r
 
 <h1>⏩⏩Trabajo futuro</div></h1>
 
-<h3 align=justify>Análisis Inicial del Dataset Utilizado</h3>
-En esta sección, se realizará un análisis exhaustivo del dataset que se utilizará en el proyecto. Se examinarán las características principales del conjunto de datos, incluyendo:
+<h3 align=justify>Dataset</h3>
+Un dataset, o conjunto de datos, es una colección estructurada de información que utilizo para analizar y comprender diferentes variables. Generalmente, lo veo como una tabla donde cada columna representa una variable específica y cada fila corresponde a un registro individual. Por ejemplo, en el dataset con el que estoy trabajando, tengo variables como Pclass (clase del pasajero), Sex (género del pasajero), Age (edad del pasajero), entre otras.
 
 <h4 align=justify>
+<h4>¿Qué variables contiene el dataset?</h4>
+<h4>El dataset incluye varias variables importantes que me permiten analizar la información de los pasajeros, tales como:
+    ⏺Pclass: Clase del pasajero (1, 2 o 3).
+    ⏺Sex: Género del pasajero (masculino o femenino).
+    ⏺Age: Edad del pasajero.
+    ⏺SibSp: Número de hermanos o cónyuges a bordo.
+    ⏺Parch: Número de padres o hijos a bordo.
+    ⏺Fare: Tarifa pagada por el pasajero.
+    ⏺Embarked: Puerto de embarque (C = Cherburgo, Q = Queenstown, S = Southampton).</h4>
+    
 <h4>Origen de los Datos: Descripción de la fuente de datos y su relevancia para el proyecto.</h4>
 <h4>Estructura del Dataset: Análisis de las columnas, tipos de datos y la cantidad de registros.</h4>
 <h4>Calidad de los Datos: Identificación de problemas potenciales como valores nulos, duplicados o inconsistencias que puedan afectar el análisis posterior.</h4>
