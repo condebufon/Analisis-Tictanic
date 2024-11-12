@@ -8,7 +8,7 @@
 
 <h1> Para trabajar en ello necesitamos:</h1>
 
-<h4>instalacion de entorno virtual <a href="Instalacion.md"></a></h4>
+<h4>instalacion de <a href="Instalacion.md">entorno virtual</a></h4>
 <h4>⏩⏩Paso 8: Abrir y trabajar con notebooks</h4>
 Desde la interfaz de Jupyter, abre los archivos .ipynb que se encuentran en el repositorio para comenzar a trabajar con ellos.
 Siguiendo estos pasos, podrás configurar un entorno virtual y trabajar con el repositorio Analisis-Tictanic en Jupyter.
