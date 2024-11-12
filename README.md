@@ -1,5 +1,5 @@
 <h2 align="center">
-<img width=300px height=200px src=titanic.jpg>
+<img width=300px height=200px src="data/titanic.jpg">
   
 :construction: Analisis-Tictanic :construction:
 </h2>
