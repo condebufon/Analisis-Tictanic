@@ -66,13 +66,17 @@ Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o progra
 
 <h3>el tema de  visualizaciones las podra apreciar en <a href="https://github.com/condebufon/Analisis-Tictanic/blob/main/dataviz.ipynb"> visualizaciones</a></h3>
 <h1>visualeremos en este analis datos como:</h1>
+
 <h2>⏺datos de la tripulacion del Titanic</h2>
 
 <a href="https://github.com/condebufon/Analisis-Tictanic/blob/main/data/train.csv" target="_blank">
     <img src="data/tripulacion.png" alt="Tripulación del Titanic" style="width:250px; height:auto;">
 
-<h2>⏺ graficas de superviviencia </h2>
-<img src="data/survival_by_gender.png">
+<h2>⏺datos en graficas /h2>
+<img src="">
+
+<h4>estructura del proyecto</h4>
+<img height=10px, width="auto"  src="data/estructura.png" alt="">
 
 
 cualquier duda o observacion contactar a: https://api.whatsapp.com/send/?phone=573157511161
