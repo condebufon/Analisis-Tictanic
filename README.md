@@ -65,6 +65,10 @@ Destino de Carga: Descripción del sistema o base de datos donde se cargarán lo
 Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o programada</h4>
 
 <h3>el tema de  visualizaciones las podra apreciar en <a href="https://github.com/condebufon/Analisis-Tictanic/blob/main/dataviz.ipynb"> visualizaciones</a></h3>
+<h1>visualeremos en este analis datos como:</h1>
+<h2>⏺datos de la tripulacion del Titanic</h2>
+<img src="data/train.csv">
+
 
 
 cualquier duda o observacion contactar a: https://api.whatsapp.com/send/?phone=573157511161
