@@ -64,5 +64,7 @@ Métodos de Transformación: Detalle sobre las técnicas utilizadas, como la agr
 Destino de Carga: Descripción del sistema o base de datos donde se cargarán los datos transformados.
 Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o programada</h4>
 
+<h3>el tema de  visualizaciones las podra apreciar en <a href="https://github.com/condebufon/Analisis-Tictanic/blob/main/dataviz.ipynb"> visualizaciones</a></h3>
+
 
 cualquier duda o observacion contactar a: https://api.whatsapp.com/send/?phone=573157511161
