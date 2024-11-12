@@ -69,7 +69,17 @@ Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o progra
 <h2>⏺datos de la tripulacion del Titanic</h2>
 <img src="data/train.csv">
 <h2>⏺ graficas de superviviencia </h2>
-<img src="data/survival_by_gender.png">
+
+import pandas as pd
+
+# Cargar el archivo CSV
+df = pd.read_csv('data/train.csv')
+
+# Seleccionar solo las columnas que son múltiplos de 10
+df_reducido = df.iloc[:, ::10]
+
+# Guardar el DataFrame reducido en un nuevo archivo CSV
+df_reducido.to_csv('data/train_reducido.csv', index=False)
 
 
 cualquier duda o observacion contactar a: https://api.whatsapp.com/send/?phone=573157511161
