@@ -170,6 +170,10 @@ Métodos de Transformación: Detalle sobre las técnicas utilizadas, como la agr
             }
             
             df = df.rename(columns=COLUMNS_TO_RENAME)</h3></h4>
+            ´´´
+            todos estos datos se veran en el archivo de transformaciones con las imagenes de cada unos
+            ´´´
+            
 <h4 align=justify>Carga:
 Destino de Carga: Descripción del sistema o base de datos donde se cargarán los datos transformados.
 Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o programada</h4>
