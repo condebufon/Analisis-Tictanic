@@ -75,7 +75,7 @@ Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o progra
 <h2>⏺Datos en graficas </h2>
 
 <a href="https://github.com/condebufon/Analisis-Tictanic/blob/main/taller2.ipynb" target="_blank">
-    <img src="data/age_vs_fare.png" alt="Gráfico" style="width:50px; height:50px;">
+    <img src="data/age_vs_fare.png" alt="Gráfico" style="width:150px; height:150px;">
 </a>
 
 <h2>⏺Estructura del proyecto</h2>
