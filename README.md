@@ -73,10 +73,11 @@ Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o progra
     <img src="data/tripulacion.png" alt="Tripulación del Titanic" style="width:250px; height:auto;">
 
 <h2>⏺datos en graficas /h2>
-<img src="">
+<img href="https://github.com/condebufon/Analisis-Tictanic/blob/main/taller2.ipynb" target="_blank">
+<img src="📈📉">
 
 <h4>estructura del proyecto</h4>
-<img height=10px, width="auto"  src="data/estructura.png" alt="">
+<img height=auto, width="auto"  src="data/estructura.png" alt="">
 
 
 cualquier duda o observacion contactar a: https://api.whatsapp.com/send/?phone=573157511161
