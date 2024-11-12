@@ -68,7 +68,8 @@ Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o progra
 <h1>visualeremos en este analis datos como:</h1>
 <h2>⏺datos de la tripulacion del Titanic</h2>
 <img src="data/train.csv">
-
+<h2>⏺ graficas de superviviencia </h2>
+<img src="data/survival_by_gender.png">
 
 
 cualquier duda o observacion contactar a: https://api.whatsapp.com/send/?phone=573157511161
