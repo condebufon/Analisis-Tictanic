@@ -112,56 +112,6 @@ Frecuencia de Extracción: Determinación de si la extracción será puntual o p
 <h4 align=justify>Transformación:
 Motivos para Transformar: Explicación sobre la necesidad de limpiar y preparar los datos para el análisis. Esto incluye la normalización de formatos y la eliminación de registros irrelevantes.
 Métodos de Transformación: Detalle sobre las técnicas utilizadas, como la agregación, filtrado y creación de nuevas columnas.</h4>
-<h4>Eliminación de columnas innecesarias para el proceso¶
-        Se eliminan primero las columnas que no aportan al proceso, las cuales son:
-        df = df.drop('PassengerId', axis=1)
-    Normalización de los datos
-        En este punto vamos a dejar todos los datos de una misma forma, todos los nombres en minúscula para evitar tener valores como Braund, BRAUND, braund, etc.
-        COLUMNS_TO_NORMALIZE = (
-            'Name',
-            'Sex',
-        )
-        for column in COLUMNS_TO_NORMALIZE:
-            df[column] = df[column].str.lower()
-        Sustitución de valores
-            En este punto vamos a sustituir unos valores por otros, como puede ser male y female por M y F respectivamente.
-            COLUMN_VALUES_TO_REPLACE = {
-                'Sex': {
-                    'male': 'M',
-                    'female': 'F',
-                }
-            }
-            
-            df = df.replace(COLUMN_VALUES_TO_REPLACE)
-        Dividir una columna
-            Ahora, basado en los datos que tenemos, vamos a dividir la columna Name por la ,
-            df['Name'].str.split(',')
-            df['Name'].str.split(',').str.get(0) # identificamos que su apellido es el primer valor
-            df['last_name'] = df['Name'].str.split(',').str.get(0) # Asignamos sel apellido en una columna nueva llamada `last_name`
-            # ahora necesitamos dejar en una columna nueva su nombre
-            df['first_name'] = df['Name'].str.split(',').str[1:] # de esta forma estamos es generando un arreglo
-            # Para solucionarlo vamos a concatener los valores
-            df['first_name'] = df['Name'].str.split(',').str[1:].str.join(' ')
-            # ahora vemos el status o titulo se encuentra en al inicio del first name, vamos
-            # a dejarlo en otra columna aparte y lo vamos a quitar del first name
-            split_column_by_dot = df['first_name'].str.split('.') # este paso es para simplificar
-            
-            df['status'] = split_column_by_dot.str.get(0)
-            df['first_name'] = split_column_by_dot.str[1:].str.join(' ')
-            Renombrando columnas
-            Ahora lo que vamos a hacer es renombrar unas columnas, simplemente para que se pueda entender mejor, como por ejemplo Name, la vamos a dejar como Full Name
-            
-            Name: Full Name
-            fist_name: First Name
-            last_name: Last Name
-            status: StatusCOLUMNS_TO_RENAME = {
-                'Name': 'Full Name',
-                'last_name': 'Last Name',
-                'first_name': 'First Name',
-                'status': 'Status',
-            }
-            
-            df = df.rename(columns=COLUMNS_TO_RENAME)</h4>
 <h4 align=justify>Carga:
 Destino de Carga: Descripción del sistema o base de datos donde se cargarán los datos transformados.
 Frecuencia de Carga: Indicación sobre si la carga será en tiempo real o programada</h4>
